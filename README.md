@@ -12,3 +12,5 @@ Image data has been uploaded in the folder "review/data".
 Angle distribution of actin
 
 After executing "reconstruct_actin.m" in folder "review", result will be saved in the folder "review/save". Run the script "angle_distribution.m" in folder "review" to read the reconstruction result and calculate the angle distribution.
+
+For more image data, please refer to cortex1.zip, cortex2.zip and lamellipodia.zip in review/data/
