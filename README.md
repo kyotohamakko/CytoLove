@@ -1,8 +1,8 @@
 # CytoLove
 
-The codes for the method called **CytoLove**, which was published in our paper [**Machine learning-guided reconstruction of cytoskeleton network from Live-cell AFM Images**](https://www.biorxiv.org/content/10.1101/2024.03.21.584818v1.abstract) accepted by **iscience**. If you use the code in your work, please cite "Ju, Hanqiu, et al. "Machine learning-guided reconstruction of cytoskeleton network from Live-cell AFM Images." bioRxiv (2024): 2024-03.".
+The codes for the method called **CytoLove**, which was published in our paper [**Machine learning-guided reconstruction of cytoskeleton network from Live-cell AFM Images**](https://www.biorxiv.org/content/10.1101/2024.03.21.584818v1.abstract) accepted by **iscience**. The codes is about the method for reconstruction of fiber structure by a connected-particle model from 2D image.
 
-The codes is about the method for reconstruction of fiber structure by a connected-particle model from 2D image.
+If you use the code in your work, please cite "Ju, Hanqiu, et al. "Machine learning-guided reconstruction of cytoskeleton network from Live-cell AFM Images." bioRxiv (2024): 2024-03.".
 
 # Reconstruction of fiber network of artificial data
 
