@@ -4,7 +4,7 @@ The codes for the method called **CytoLove**, which was published in our paper [
 
 If you use the code in your work, please cite:
 
-"Ju, Hanqiu, et al. "Machine learning-guided reconstruction of cytoskeleton network from Live-cell AFM Images." bioRxiv (2024): 2024-03.".
+Ju, Hanqiu, et al. "Machine learning-guided reconstruction of cytoskeleton network from Live-cell AFM Images." bioRxiv (2024): 2024-03.
 
 # Reconstruction of fiber network of artificial data
 
@@ -21,4 +21,6 @@ Image data has been uploaded in the folder "./data".
 
 After executing "reconstruct_actin.m", result will be saved in the folder "./save". Run the script "angle_distribution.m" to read the reconstruction result and calculate the angle distribution.
 
-For more image data, please refer to cortex1.zip, cortex2.zip and lamellipodia.zip.
+# For more data of our work
+
+For more image data, please refer to cortex1.zip, cortex2.zip and lamellipodia.zip in "./data".
