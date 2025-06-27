@@ -2,7 +2,7 @@
 
 ![image text](https://github.com/kyotohamakko/CytoLove/blob/main/images/CytoLove.png "Flow of CytoLove")
 
-The codes for the method called **CytoLove**, which was published in our paper [**Machine learning-guided reconstruction of cytoskeleton network from Live-cell AFM Images**](https://www.cell.com/iscience/fulltext/S2589-0042(24)02132-1) accepted by **iscience**. The codes is about the method for reconstruction of fiber structure by a connected-particle model from 2D image.
+The codes for the method called **CytoLove**, which was published in our paper [**Machine learning-guided reconstruction of cytoskeleton network from Live-cell AFM Images**](https://www.cell.com/iscience/fulltext/S2589-0042(24)02132-1) accepted by **iscience**. The codes is about the method for reconstruction of fiber structure by a connected-particle model from 2D image. This method can be used to track and reconstruct structers of line or fiber in the 2D image.
 
 If you use the code in your work, please cite:
 
