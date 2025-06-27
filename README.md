@@ -11,9 +11,9 @@ Ju et al., Machine learning-guided reconstruction of cytoskeleton network from l
 # Set the strength of bending energy
 Before using this code, please decide the strength of bending energy according to the situation of your line/fiber structure. This method was originally proposed to track and reconstruct actin filament, which has high persistence length. That is, line/fiber structure that almostly straight. If your line/fiber structure please find the two of the following lines: 
 
-E_bend = 100.0*(1.0 - abs(cos(pi*(p.orient-e_new.point.orient)/180)) )^(2*0.5);
+`E_bend = 100.0*(1.0 - abs(cos(pi*(p.orient-e_new.point.orient)/180)) )^(2*0.5);`
 
-in "reconstruct_artifact.m" and "reconstruct_actin.m", command out it or change the value of 100.0 or 0.5. You can see [**equation (17)**] in STAR METHODS session in [**our paper**](https://www.cell.com/iscience/fulltext/S2589-0042(24)02132-1) for the mathematical explanation of this line of code. 
+in "reconstruct_artifact.m" and "reconstruct_actin.m", command out it or change the value of 100.0 or 0.5. You can see **equation (17)** in the STAR METHODS session in [**our paper**](https://www.cell.com/iscience/fulltext/S2589-0042(24)02132-1) for the mathematical explanation of this line of code. 
 
 
 # Reconstruction of fiber network of artificial data
