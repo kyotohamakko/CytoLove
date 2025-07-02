@@ -6,7 +6,7 @@ The codes for the method called **CytoLove**, which was published in our paper [
 
 If you use the code in your work, please cite:
 
-Ju et al., Machine learning-guided reconstruction of cytoskeleton network from live-cell AFM images, iScience (2024), https://doi.org/10.1016/j.isci.2024.110907.
+**Ju et al., Machine learning-guided reconstruction of cytoskeleton network from live-cell AFM images, iScience (2024), https://doi.org/10.1016/j.isci.2024.110907.**
 
 # Set the strength of bending energy
 Before using this code, please decide the strength of bending energy according to the situation of your line/fiber structure. This method was originally proposed to track and reconstruct actin filament, which has high persistence length. That is, line/fiber structure that almostly straight or with very low curvature. If your line/fiber structure is not straight, please find the **two of** the following lines: 
