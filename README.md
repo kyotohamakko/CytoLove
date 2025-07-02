@@ -13,7 +13,7 @@ Before using this code, please decide the strength of bending energy according t
 
 `E_bend = 100.0*(1.0 - abs(cos(pi*(p.orient-e_new.point.orient)/180)) )^(2*0.5);`
 
-in `reconstruct_artifact.m` or `reconstruct_actin.m`, command it out or decrease the value of the parameter that controls the strength of bending energy (100.0 and 0.5 in the above code) to allow the tracking and reconstruction of high-curvature line/fiber structure. You can see **equation (17)** in the STAR METHODS session in [**our paper**](https://www.cell.com/iscience/fulltext/S2589-0042(24)02132-1) for the mathematical explanation of this line of code. 
+in `reconstruct_artifact.m` or `reconstruct_actin.m`, command it out or decrease the value of the parameter that controls the strength of bending energy (100.0 and 0.5 in the above code) to allow the tracking and reconstruction of high-curvature line/fiber structure. You can see **equation (17)** in the STAR METHODS session in [**our paper**](https://www.cell.com/iscience/fulltext/S2589-0042(24)02132-1) for the mathematical explanation. 
 
 
 # Reconstruction of fiber network of artificial data
