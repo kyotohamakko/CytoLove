@@ -24,7 +24,7 @@ Image data has been uploaded in the folder "./data".
 # Reconstruction of the actin network
 
 Run the script "reconstruct_actin.m" to reconstruct the graph representation of actin.
-By setting 'actin_type = "cortex"' or 'actin_type = "lamilipodia"' to decide which type of actin to reconstruct.
+By setting `actin_type = "cortex"` or `actin_type = "lamilipodia"` to decide which type of actin to reconstruct.
 Image data has been uploaded in the folder "./data". 
 
 # Angle distribution of actin
