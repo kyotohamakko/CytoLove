@@ -13,24 +13,24 @@ Before using this code, please decide the strength of bending energy according t
 
 `E_bend = 100.0*(1.0 - abs(cos(pi*(p.orient-e_new.point.orient)/180)) )^(2*0.5);`
 
-in "reconstruct_artifact.m" or "reconstruct_actin.m", command it out or decrease the value of the parameter that controls the strength of bending energy (100.0 and 0.5 in the above code) to allow the tracking and reconstruction of high-curvature line/fiber structure. You can see **equation (17)** in the STAR METHODS session in [**our paper**](https://www.cell.com/iscience/fulltext/S2589-0042(24)02132-1) for the mathematical explanation of this line of code. 
+in `reconstruct_artifact.m` or `reconstruct_actin.m`, command it out or decrease the value of the parameter that controls the strength of bending energy (100.0 and 0.5 in the above code) to allow the tracking and reconstruction of high-curvature line/fiber structure. You can see **equation (17)** in the STAR METHODS session in [**our paper**](https://www.cell.com/iscience/fulltext/S2589-0042(24)02132-1) for the mathematical explanation of this line of code. 
 
 
 # Reconstruction of fiber network of artificial data
 
-Run the script "reconstruct_artifact.m" to reconstruct the graph representation of a hand make crossing fiber.
-Image data has been uploaded in the folder "./data". 
+Run the script `reconstruct_artifact.m` to reconstruct the graph representation of a hand make crossing fiber.
+Image data has been uploaded in the folder `./data`. 
 
 # Reconstruction of the actin network
 
-Run the script "reconstruct_actin.m" to reconstruct the graph representation of actin.
+Run the script `reconstruct_actin.m` to reconstruct the graph representation of actin.
 By setting `actin_type = "cortex"` or `actin_type = "lamilipodia"` to decide which type of actin to reconstruct.
-Image data has been uploaded in the folder "./data". 
+Image data has been uploaded in the folder `./data`. 
 
 # Angle distribution of actin
 
-After executing "reconstruct_actin.m", result will be saved in the folder "./save". Run the script "angle_distribution.m" to read the reconstruction result and calculate the angle distribution.
+After executing `reconstruct_actin.m`, result will be saved in the folder `./save`. Run the script `angle_distribution.m` to read the reconstruction result and calculate the angle distribution.
 
 # For more data of our work
 
-For more image data, please refer to cortex1.zip, cortex2.zip and lamellipodia.zip in "./data".
+For more image data, please refer to `cortex1.zip`, `cortex2.zip` and `lamellipodia.zip` in folder `./data`.
